@@ -6,4 +6,5 @@ $host = 'nr84dudlpkazpylz.chr7pe7iynqr.eu-west-1.rds.amazonaws.com';
 
 $dsn = 'mysql:host='.$host.';dbname='.$db;
 $pdo = new PDO($dsn,$user,$password);
+
 ?>
